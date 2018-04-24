@@ -1,0 +1,1044 @@
+@charset "utf-8";
+/*--头部样式--*/
+#header .h-top{
+	background-color:#000;
+	width:100%;
+	margin:auto;
+}
+#header .ht-nav{
+	width:1080px;
+	height:50px;
+	margin:auto;
+	line-height:50px;
+}
+.ht-nav a{
+	color:#fff;
+	font-weight:bold;
+}
+/*--更多样式--*/
+.ht-nav ul{
+	transition:.3s;
+}
+.ht-nav .more1 li{
+	margin-left:42px;
+}
+.ht-more{
+	width:20px;
+	height:50px;
+	margin-right:40px;
+}
+.ht-more a{
+	background:url("../images/nav2016-morebg2.png") no-repeat 0px 21px;
+}
+.ht-more ul{
+	width:856px;
+}
+.ht-more .more2{
+	top:50px;
+	right:40px;
+	line-height:50px;
+	transition:.3s;
+}
+.ht-more ul li{
+	margin-right:30px;
+}
+/*--搜索样式--*/
+.ht-search{
+	width:22px;
+	height:50px;
+}
+.ht-search > a{
+	background:url("../images/nav2016-search.png") no-repeat 0px 13px;
+}
+.search-content{
+	display:none;
+	width:1200px;
+	height:360px;
+	top:50px;
+	right:0px;
+	background-color:rgba(0,0,0,.8);
+	z-index:50;
+}
+.search-content input{
+	height:45px;
+	margin-top:50px;
+	margin-left:20px;
+	border:none;
+	outline:none;
+	background-color:rgba(0,0,0,0);
+	font-size:40px;
+	color:#fff;
+}
+.search-content input::placeholder{
+	color:#fff;
+}
+.search-content ol{
+	margin-top:85px;
+	margin-right:90px;
+}
+.search-content ol li{
+	margin-bottom:15px;
+}
+.search-content a{
+	font-size:14px;
+	font-weight:normal;
+	opacity:.6;
+}
+
+/*--头部内容样式开始--*/
+#header .h-content{
+	height:626px;
+	margin:auto;
+	background-color:#fff;
+}
+.h-content .hc-login{
+	width:720px;
+	padding-top:41px;
+	padding-bottom:45px;
+}
+.hc-login span{
+	padding:5px 40px;
+	border:1px solid #eee;
+	border-radius:20px;
+}
+/*--头部轮播--*/
+.hc-banner .hc-bannerl{
+	width:750px;
+	height:480px;
+}
+.hc-bannerl .introduction{
+	text-align:center;
+	bottom:45px;
+	color:#fff;
+	z-index:1;
+}
+.introduction h3{
+	font-size:25px;
+	font-weight:bold;
+	line-height:25px;
+}
+.hc-bannerl .linear{
+	height:200px;
+	bottom:0;
+	left:0;
+	background:url("../images/uicon.png") no-repeat -350px 0px;
+}
+/*--swiper样式修改--*/
+#wrap .swiper-but{
+	padding:20px;
+	background-color:rgba(0,0,0,.7);
+	transition:.3s;
+}
+#wrap .swiper-button-prev{
+	left:750px;
+	margin-top:0px;
+}
+#wrap .swiper-button-next{
+	right:-97px;
+	margin-top:-83px;
+}
+#wrap .swiper-pagination-bullet{
+	width:25px;
+	height:4px;
+	border-radius:0;
+}
+.hc-banner .hc-bannerr{
+	width:320px;
+	height:480px;
+	background-color:red;
+}
+/*--内容样式开始--*/
+#content{
+	width:1080px;
+	margin:70px auto;
+}
+/*--right-now样式开始--*/
+#content .right-now{
+	border-top:1px solid #000;
+}
+.right-now .title{
+	width:320px;
+	height:45px;
+	margin:-23px auto 40px;
+	background:#fff url("../images/uicon.png") no-repeat -30px 5px;
+}
+/*--内容样式开始--*/
+
+.rn-contentl{
+	width:750px;
+}
+.rn-contentl ul li{
+	padding-bottom:22px;
+	border-bottom:1px solid #8d8d8d;
+}
+.rn-contentl ul li a{
+	color:#000;
+}
+.rn-contentl .tags{
+	font-size:14px;
+	line-height:14px;
+}
+.rn-contentl .description{
+	padding:8px 0 8px 0;
+	font-size:20px;
+	line-height:32px;
+}
+.rn-contentl .u-img{
+	float:left;
+	width:100px;
+	height:100px;
+	margin-right:20px;
+}
+.rn-contentl .u-img img{
+	width:100%;
+	height:100%;
+}
+.rn-contentl li + li{
+	padding-top:20px;
+}
+.rn-contentl{
+	position:relative;
+}
+.rn-contentl .rn-more{
+	position:absolute;
+	width:100%;
+	height:40px;
+	top:1406px;
+	border:1px solid #888;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+}
+/*--右边内容--*/
+.rn-contentr .img1{
+	width:300px;
+}
+.rn-contentr .img1 img{
+	width:100%;
+}
+#content .rn-contentr .img3{
+	margin-top:5px;
+	width:300px;
+	height:383px;
+	background:url("../images/uicon.png") no-repeat -1102px 0px;
+}
+/*--（首先限制容器。然后图片百分百继承）--*/
+.rn-content .img3 .product{
+	overflow:hidden;/*--超出隐藏--*/
+	width:180px;
+	height:180px;
+	border:1px solid #ccc;
+	margin-left:55px;
+	margin-top:13px;
+	border-radius:50%;
+}
+.img3 .product img{
+	width:100%;
+	height:100%;
+}
+.img3 .num{
+	width:182px;
+	margin-left:55px;
+	margin-top:16px;
+	text-align:center;
+}
+.img3 p{
+	line-height:22px;
+	font-size:16px;
+	color:#000;
+}
+.img3 .list{
+	line-height:26px;
+	font-size:14px;
+	color:#888;
+}
+.img3 ul{
+	height:330px;
+}
+.img3 .btn{
+	overflow:hidden;
+	width:140px;
+	height:30px;
+	margin-left:76px;
+	border:1px solid #eee;
+	cursor:pointer;
+}
+.img3 .btn p{
+	width:100%;
+	height:100%;
+	line-height:30px;
+	text-align:center;
+	transition:.3s;
+}
+.img3 .btn .black{
+	color:white;
+	background-color:black;
+}
+/*--更多hover样式--*/
+.img4{
+	margin-top:5px;
+	position:relative;
+}
+.img4 .m-hover{
+	position:absolute;
+	overflow:hidden;/*--因为给了内容为零，但是超出的部分还在外边--*/
+	height:0;
+	top:150px;
+	left:0px;
+	transition:.3s;
+}
+.img4 .m-hover a{
+	display:block;
+	width:230px;
+	padding:85px 35px;
+	background-color:rgba(0,0,0,.7);
+	color:#fff;
+}
+.img4 .m-hover span{
+	display:block;
+	margin-top:60px;
+	border:2px solid #fff;
+	text-align:center;
+	line-height:25px;
+}
+/*--video样式开始--*/
+#content .video{
+	width:1080px;
+	margin:auto;
+}
+/*--标题title--*/
+#content .video .title{
+	width:223px;
+	height:45px;
+	margin:70px auto 20px;
+	background:url("../images/uicon.png") no-repeat -110px -45px;
+}
+/*--video内容导航--*/
+.video .v-nav{
+	height:40px;
+	border-top:1px solid #888;
+	border-bottom:1px solid #888;
+	line-height:40px;
+}
+.video .v-nav ul{
+	width:570px;
+	margin:auto;
+}
+.video .v-nav ul li{
+	padding:0 12px;
+	font-size:14px;
+}
+.video .v-nav a{
+	color:#000;
+}
+/*--v-content左边样式--*/
+.video .v-contentl{
+	width:390px;
+}
+.v-contentl i{
+	width:66px;
+	height:66px;
+	top:50%;
+	left:50%;
+	margin-top:-150px;
+	margin-left:-33px;/*--?用这种方法居中--*/
+	border-radius:50%;
+	background:rgba(255,255,255,.7) url("../images/uicon.png") no-repeat -224px -90px;
+} 
+/*--video右边样式--*/
+.video .v-contentr{
+	width:650px;
+	/* overflow:hidden; */
+}
+.v-contentr ul{margin-left:-25px;}
+.v-contentr ul li{
+	width:200px;
+	margin-left:25px;
+}
+.v-contentr ul li img{
+	width:100%;
+}
+.v-contentr ul li .u-text{
+	overflow:hidden;
+	width:100%;
+	height:44px;
+	margin-top:8px;
+	margin-bottom:8px;
+	font-size:14px;
+	line-height:24px;
+}
+/*--video右边样式--*/
+.v-contentr ul li i{
+	width:35px;
+	height:35px;
+	top:50%;
+	left:50%;
+	margin-top:-80.5px;
+	margin-left:-17.5px;
+	border-radius:50%;
+	background:rgba(255,255,255,.7) url("../images/uicon.png") no-repeat -128px -110px;
+}
+
+/*--trends样式开始--*/
+#content .trends{
+	width:1080px;
+	margin:auto;
+}
+/*--标题title--*/
+#content .trends .title{
+	width:223px;
+	height:45px;
+	margin:70px auto 20px;
+	background:url("../images/uicon.png") no-repeat 4px -185px;
+}
+/*--trends内容导航--*/
+.trends .t-nav{
+	height:40px;
+	border-top:1px solid #888;
+	border-bottom:1px solid #888;
+	line-height:40px;
+}
+.trends .t-nav ul{
+	width:570px;
+	margin:auto;
+}
+.trends .t-nav ul li{
+	padding:0 12px;
+	font-size:14px;
+}
+.trends .t-nav a{
+	color:#000;
+}
+/*--trends左边样式--*/
+.trends .t-contentl{
+	width:467px;
+	height:480px;
+}
+.t-contentl img{
+	width:100%;
+}
+.u-text .click i{
+	display:inline-block;
+	width:17px;
+	height:18px;
+	background:url("../images/icon_indexbg.jpg") no-repeat 0px -22px;
+}
+/*--swiper轮播样式修改--*/
+#content .trends .swiper-pagination{
+	top:328px;
+}
+#content .trends .swiper-button-prev{
+	top:80px;
+	left:467px;
+}
+#content .trends .swiper-button-next{
+	top:250px;
+	left:467px;
+}
+/*--trends右边样式--*/
+.trends .t-contentr{
+	width:577px;
+}
+.t-contentr .u-img{
+	overflow:hidden;/*--没有给这个盒子高度，那么如何判断是否超出呢？--*/
+	width:270px;
+	text-align:center;
+}
+.t-contentr .u-img img{
+	width:100%;
+}
+.t-contentr .u-text{
+	width:212px;
+	height:150px;
+	text-align:left;
+	left:29px;
+	padding-left:15px;
+	background-color:#fff;/*--为什么出来的效果并不是从下边往上边走？--*/
+	transition:.10s;
+}
+.t-contentr .u-text h4{
+	overflow:hidden;
+	height:42px;
+}
+.t-contentr{
+	margin-left:-25px;/*--（此处无效）老师前边rtrends中有一个ul用了margin-left:-25px用来调节右边部分的间距，为什么这里的div用不了呢？--*/
+}
+.t-contentr .u-img{
+	margin-left:15px;
+}
+/*--独家精品样式开始--*/
+.trends .b-line{
+	height:7px;
+	background:url("../images/nstripebg.png") no-repeat 0px 0px;
+}
+.trends .boutique{
+	height:365px;
+}
+.trends .boutique .b-nav{
+	height:40px;
+	background-color:#f5f5f5;
+}
+.boutique .b-nav .logo{
+	width:130px;
+	height:40px;
+	background-color:#000;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+}
+.boutique .b-nav .logo:after{
+	position:absolute;
+	content:"";
+	width:0;
+	top:14px;
+	right:-12px;
+	border:6px solid transparent;/*透明的*/
+	border-left-color:#000;
+}
+.boutique .b-nav ul{
+	width:600px;
+	line-height:40px;
+	margin-left:38px;
+}
+.boutique .b-nav li{
+	margin-right:32px;
+	position:relative;
+}
+.boutique .b-nav li a{
+	color:#000;
+}
+/*--实现的是从中间往两边走（宽度增加的时候往左边走）--*/
+.boutique .b-nav li i{
+	position:absolute;
+	width:0;
+	bottom:0;
+	left:50%;
+	height:2px;
+	background-color:#f03;
+	transition:.3s;
+}
+.b-nav .b-img{
+	margin-top:65px;
+}
+.b-nav .b-img img{
+	width:340px;
+	height:256px;
+}
+.b-nav .b-img a + a{
+	margin-left:30px;
+}
+.trends .t-time{
+	margin-top:50px;
+}
+/*--本周样式--*/
+.trends .t-time .tt-week{
+	width:100px;
+	height:50px;
+	padding-top:15px;
+	border:5px solid #000;
+	text-align:center;
+	font-size:12px;
+}
+.trends .t-time ul{
+	line-height:45px;
+	margin-left:20px;
+}
+.t-time ul li{
+	margin-right:20px;
+}
+.t-time ul li a{
+	color:#000;
+}
+.trends .t-time input{
+	width:245px;
+	height:30px;
+	margin-left:20px;
+	text-indent:5px;
+	border:1px solid #000;
+}
+.trends .t-time .btn{
+	overflow:hidden;
+	width:120px;
+	height:30px;
+	margin-left:20px;
+	border:1px solid #000;
+	border-radius:4px;
+	text-align:center;
+	cursor:pointer;
+}
+.t-time .btn p{
+	line-height:30px;
+	transition:.3s;
+}
+.t-time .btn .black{
+	background-color:black;
+	color:#fff;
+}
+/*--brands品牌样式--*/
+#content .brands .title{
+	height:30px;
+	background-position:20px -232px;
+}
+#content .brands .title .t-nav ul{
+	margin:0px auto
+}
+#content .brands .t-contentl{
+	width:800px;
+	height:500px;
+}
+#content .brands .t-contentl img{
+	width:800px;
+	height:400px;
+}
+#content .brands .t-contentl img{
+	width:800px;
+	height:400px;
+}
+#content .brands .swiper-pagination{
+	top:360px;
+}
+#content .brands .swiper-button-prev{
+	top:180px;
+	left:10px;
+}
+#content .brands .swiper-button-next{
+	left:725px;
+	top:265px;
+}
+/*brands右边样式*/
+.brands .b-contentr .u-img{
+	width:240px;
+	margin-bottom:20px;
+}
+.b-contentr .u-img img{
+	width:100%;
+	height:240px;
+}
+.b-contentr .u-img .u-text{
+	overflow:hidden;
+	width:190px;
+	height:0;
+	padding:0 25px;
+	top:50%;
+	left:0;
+	background-color:rgba(0,0,0,.7);
+	transition:.3s;
+	cursor:pointer;
+}
+.b-contentr .u-text h3{
+	margin-top:45px;
+}
+.b-contentr .u-text a{
+	color:#fff;
+}
+.b-contentr .u-text i{
+	background:url("../images/icon_indexbg.jpg") no-repeat 0px -22px;
+}
+.b-contentr .u-img:hover .u-text{
+	top:0;
+	height:100%;
+}
+/*--珠宝样式--*/
+#content .jewelry .title{
+	width:690px;
+	height:47px;
+	background:url("../images/uicon.png") no-repeat 60px -395px;
+}
+.jewelry .t-nav ul{
+	margin-left:375px;/*--为什么此处用margin:0 auto不能使ul居中--*/
+}
+.jewelry .t-content .u-img{
+	width:340px;
+	margin-left:25px;
+}
+.jewelry .t-content .u-img .u-text{
+	width:312px;
+	padding:0px 2px;
+	left:12px;
+}
+.jewelry .t-content .t-contentr{
+	width:340px;
+}
+.jewelry .t-content .j-contentr{
+	width:680px;
+}
+#content .lifestyle .title{
+	width:450px;
+	height:50px;
+	background:url("../images/uicon.png") no-repeat -700px -395px;
+}
+/*--people样式--*/
+#content .p-content .u-img{
+	width:240px;
+}
+.p-content .u-img img{
+	width:100%;
+	height:240px;
+}
+.p-content .u-img .u-text i{
+	width:18px;
+	height:15px;
+	background:url("../images/icon_indexbg.jpg") no-repeat 0px -24px;
+}
+.p-content .u-img .u-text span{
+	color:#fff;
+}
+.p-content .u-img .u-text{
+	overflow:hidden;
+	width:190px;
+	height:0;
+	padding:0 25px;
+	top:50%;
+	left:0;
+	background-color:rgba(0,0,0,.7);
+	transition:.3s;
+	cursor:pointer;
+}
+.p-content .u-text h3{
+	margin-top:45px;
+}
+.p-content .u-img:hover .u-text{
+	top:0;
+	height:100%;
+}
+.p-content .u-img + .u-img{
+	margin-left:40px;
+}
+/*--interactive互动样式--*/
+#content .interactive .title{
+	width:265px;
+	height:40px;
+	background:url("../images/uicon.png") no-repeat 5px -340px;
+}
+.interactive .i-content{
+	width:1080px;
+	height:670px;
+	margin-top:25px;
+}
+.interactive .i-contentl .u-img{
+	width:650px;
+	height:485px;
+}
+.interactive .u-img img{
+	width:300px;
+}
+/*--类名的定位要精准--*/
+.i-content .i-contentl h3{
+
+	padding-bottom:16px;
+	font-size:20px;
+	line-height:34px;
+	font-weight:bold;
+}
+.interactive .i-content .u-img .u-text{
+	display:none;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	background-color:rgb(219,58,69);
+	text-align:center;
+	color:#fff;
+	cursor:pointer;
+}
+.i-content .u-img i{
+	display:block;
+	width:51px;
+	height:44px;
+	margin:20% auto 3%;
+	background:url("../images/uicon.png") no-repeat -781px -238px;
+}
+.i-content .u-text .u-name{
+	margin-top:40%;
+}
+.i-content .u-img span{
+	font-size:20px;
+	font-weight:bold;
+}
+/*--记住粉分清楚给的是img还是Li--*/
+.interactive .i-contentl li + li{
+	margin-left:30px;
+}
+.interactive .i-contentl li + li img{
+	width:145px;
+	height:228px;
+}
+.interactive .i-contentl .i-text{
+	width:650px;
+}
+.interactive .i-text .i-title{
+	margin-top:40px;
+}
+.interactive .i-contentl .i-text p{
+	margin-top:15px;
+	font-size:14px;
+	color:#888;
+	font-family:"微软雅黑"
+}
+.interactive .i-content .i-but{
+	width:100px;
+	margin-top:50px;
+	text-align:center;
+}
+.interactive .i-content .i-but i{
+	display:block;
+	width:48px;
+	height:48px;
+	margin:auto;
+	background:url("../images/uicon.png") no-repeat -682px -201px;
+}
+.interactive .i-content .i-but .i-but2{
+	background-position:-682px -299px;
+}
+.interactive .i-content .i-but .i-but3{
+	background-position:-682px -348px;
+}
+.i-content .i-but a{
+	margin-bottom:20px;
+}
+.content .i-but span{
+	font-size:14px;
+}
+.interactive .i-contentr{
+	width:300px;
+	height:670px;
+	padding-left:25px;
+	border-left:1px solid #888;
+}
+.i-contentr .u-img{
+	width:300px;
+	text-align:center;
+}
+.i-contentr h3{
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.i-contentr .u-img p{
+	margin-top:10px;
+	font-size:14px;
+}
+.i-contentr ul i{
+	display:inline-block;
+	width:4px;
+	height:4px;
+	margin:0 10px;
+	background-color:#000;
+	vertical-align:middle;
+}
+.i-contentr .list2{
+	width:300px;
+	margin-top:20px;
+}
+.i-contentr .list2 ul li{
+	overflow:hidden;
+	width:100%;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+}
+/*--gallery样式--*/
+#content .gallery .title{
+	width:230px;
+	height:50px;
+	background:url("../images/uicon.png") no-repeat -1152px -396px;
+}
+.gallery .t-nav ul{
+	margin-left:385px;
+}
+#content .gallery .g-content{
+	width:1080px;
+	padding-top:20px;
+	background-color:#b8b8b8;
+}
+.g-content .p-content .u-img{
+	width:245px;
+	height:247px;
+	padding:10px;
+	background-color:#fff;
+}
+.g-content .p-content .u-img + .u-img{
+	margin-left:10px;
+}
+.g-content .p-content .u-img .p-text{
+	overflow:hidden;
+	width:240px;
+	height:0;
+	padding:0;
+	top:50%;
+	left:10px;
+	background-color:rgba(0,0,0,.7);
+	transition:.3s;
+	cursor:pointer;
+}
+.g-content .p-content .p-text h3{
+	margin-top:45px;
+}
+.g-content .p-content .u-img:hover .p-text{
+	top:10px;
+	height:240px;
+}
+/*--notes样式--*/
+#content .notes .title{
+	width:300px;
+	margin:70px 0px 20px 380px;
+}
+.notes .title .pic{
+	width:100px;
+	height:40px;
+	background:url("../images/uicon.png") no-repeat -1400px -400px;
+}
+.notes .title span{
+	font-size:34px;
+	font-family:"微软雅黑";
+}
+.notes .n-content{
+	overflow:hidden;
+	width:1080px;
+	padding-top:5px;
+	border-top:1px solid #888;
+}
+.notes .n-content{
+	width:100%;
+	margin:auto;
+}
+.n-content li{
+	width:260px;
+}
+.n-content .n-text{
+	padding:20px 0 20px 0;
+}
+.n-content h3{
+	font-size:20px;
+	font-weight:bold;
+	line-height:20px;
+	margin-bottom:28px;
+}
+.n-content li a{
+	display:inline-block;
+	font-size:14px;
+	line-height:14px;
+	margin-right:20px;
+	margin-bottom:15px;
+}
+.n-content li img{
+	width:260px;
+	height:260px;
+}
+.n-content .n-img h3{
+	top:20px;
+	left:20px;
+	color:#fff;
+}
+.n-content ul li + li{
+	margin-right:10px;
+}
+/*--footer样式--*/
+.f-content .fc-pic{
+	background-color:#db3a45;
+	margin:auto;
+	width:1080px;
+	height:540px;
+}
+.fc-pic .bag{
+	overflow:hidden;
+	width:530px;
+	height:540px;
+}
+.fc-pic .bag .wap{
+	display:none;
+	top:30px;
+	left:0;
+	font-size:18px;
+	color:#fff;
+	line-height:40px;
+	text-align:center;
+}
+.fc-pic .app{
+	width:295px;
+	height:540px;
+	top:0;
+	left:235px;
+}
+.fc-pic .app img{
+	display:none;
+	margin-top:152px;
+}
+.fc-pic .weixin{
+	width:122px;
+	height:390px;
+	margin-top:148px;
+	margin-left:145px;
+}
+.fc-pic .weixin:before{
+	position:absolute;
+	content:"";
+	width:64px;
+	height:64px;
+	top:0px;
+	left:-80px;
+	background:url("../images/nfooterappbg.png") no-repeat -536px 0;
+}
+.weixin ul li{
+	overflow:hidden;
+	width:122px;
+	height:20px;
+	padding:15px 0;
+	border-top:1px solid red;
+	transition:.3s;
+}
+.weixin ul li a{
+	color:#fff;
+}
+.weixin li img{
+	width:100%;
+	margin-top:20px;
+}
+/*--不知道为什么那个小三角隐藏不了--*/
+.weixin  ul li .erweima:before{
+	overflow:hidden;
+	position:absolute;
+	content:"";
+	width:0;
+	height:0;
+	top:8px;
+	left:10px;
+	border:6px solid transparent;
+	border-bottom-color:#fff;
+}
+.weixin ul .b-b{
+	border-bottom:1px solid red;
+}
+#footer .f-copy{
+	width:1080px;
+	height:550px;
+	margin:auto;
+	padding-bottom:50px;/*--不知道为啥就是没有效果？--*/
+}
+.f-copy .link{
+	padding:25px 0;
+}
+.f-copy .link a{
+	padding:0 10px;
+}
+.f-copy .fc-content .fc-contentl{
+	width:260px;
+}
+.f-copy .fc-contentr{
+	width:820px;
+}
+.fc-contentr .nav a{
+	padding-right:15px;
+	line-height:35px;
+}
+.fc-contentr .lists{
+	font-size:14px;
+	color:#888;
+	line-height:25px;
+}
+.feel{
+	width:100%;
+	margin-top:100px;
+	color:#620000;
+}

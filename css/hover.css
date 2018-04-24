@@ -1,0 +1,137 @@
+
+@charset "utf-8";
+/*--头部导航hover样式--*/
+.ht-more:hover ul{
+	margin-top:-50px;
+}
+.ht-more:hover + ul{
+	margin-top:-50px;
+}
+.ht-more a:hover{
+	background-image:url("../images/nav2016-morebg.png");
+}
+/*--因为所有的字都有效果，所以在ht-nav下hover--*/
+.ht-nav a:hover{
+	color:red;
+}
+.ht-nav .ht-search a:focus{
+	background-image:url("../images/nav2016-search-open.png");
+}
+.ht-nav .ht-search a:focus + .search-content{
+	display:block;
+}/*--这样写的话接不上，因为两个不是福福父子级关系,可以用js实现--*/
+
+/*--swipeer改变hover样式*/
+#header .hc-bannerl:hover .swiper-button-prev{
+	left:683px;
+}
+#header .hc-bannerl:hover .swiper-button-next{
+	right:0px;
+}
+/*--rigth-now的hover效果--*/
+.rn-contentl a:hover{
+	color:#f03;
+}
+.img3 .btn:hover p{
+	margin-top:-15px;
+}
+.img4:hover .m-hover{
+	height:300px;
+	top:0px;
+}
+.m-hover span:hover{
+	color:#000;
+	background-color:#fff;
+}
+/*--video的hover效果--*/
+.v-content .v-contentl a:hover{
+	color:#f03;
+}
+.v-contentl .u-img a:hover i{
+	background-color:rgba(0,0,0,.7);
+	background-position-y:-157px;
+}
+.v-content .v-contentr a:hover{
+	color:#f03;
+}
+.v-contentr  ul li a:hover i{
+	background-color:rgba(0,0,0,.7);
+	background-position-y:-145px;
+}
+/*--trends的swipr:hover--*/
+#content .trends .t-contentl:hover .swiper-button-prev{
+	left:400px;
+}
+#content .trends .t-contentl:hover .swiper-button-next{
+	left:400px;
+}
+.t-content .t-contentl a:hover{
+	color:#f03;
+}
+/*--trends的hover样式--*/
+.t-content .t-contentr .u-img:hover .u-text{ 
+	bottom:0px;
+}
+.u-text a:hover{
+	color:#f03;
+}
+#content .brands .t-contentl:hover .swiper-button-prev{
+	left:30px;
+}
+#content .brands .t-contentl:hover .swiper-button-next{
+	left:695px;
+}
+.t-time .btn:hover p{
+	margin-top:-15px;
+}
+/*--boutique的hover效果--*/
+.b-nav li:hover > a{
+	color:#f03;
+}
+.b-nav li:hover i{
+	width:100%;
+	left:0;
+}
+.b-nav .b-img a:hover > p{
+	color:#f03;
+}
+.interactive .i-content li:hover .u-text{
+	display:block;
+}
+.interactive .i-text .i-title a:hover{
+	color:#f03;
+}
+.i-content .i-but a:hover .i-but1{
+	background-position:-731px -201px;
+}
+.i-content .i-but a:hover .i-but2{
+	background-position:-731px -299px;
+}
+.i-content .i-but a:hover .i-but3{
+	background-position:-731px -348px;
+}
+.interactive .i-contentr .u-img p:hover a{
+	color:#f03;
+}
+.interactive .list2 ul li:hover a{
+	color:#f03;
+}
+.note .n-content a:hover{
+	color:#f03;
+}
+/*--footer--*/
+.fc-pic .bag:hover .wap{
+	display:block;
+}
+.fc-pic .bag:hover > img{
+	top:70px;
+}
+.fc-pic .app:hover img{
+	display:block;
+}
+.weixin li:hover{
+	height:153px;
+}
+.fc-content a:hover{
+	color:#f03;
+}
