@@ -1,0 +1,403 @@
+@charset "utf-8;"
+#main{
+	max-width:750px;
+	margin:auto;
+}
+/*--头部样式--*/
+.download{
+	height:calc((100/75)*1rem);
+	background-image:url("../images/topbg.jpg");
+	background-size:100% 100%;
+}
+.download .logo{
+	width:calc((84/75)*1rem);
+	height:calc((84/75)*1rem);
+	margin-top:calc((2/75)*1rem);
+	margin-left:calc((10/75)*1rem);
+	border-radius:10px;
+	background-color:#fff;
+}
+.download .title{
+	margin-top:calc((10/75)*1rem);
+	margin-left:calc((20/75)*1rem);
+	color:#fff;
+}
+.download .title h2{
+	font-size:calc((26/75)*1rem);
+}
+.download .title h3{
+	font-size:calc((22/75)*1rem);
+}
+.download .h-right{
+	width:calc((100/75)*1rem);
+	height:calc((60/75)*1rem);
+	background-image:url("../images/download.png");
+	background-size:100% 100%;
+	margin-top:calc((15/75)*1rem);
+	margin-right:calc((20/75)*1rem);
+}
+.banner{
+	position:relative;
+	height:calc((283/75)*1rem);
+}
+.banner ul li{
+	position:absolute;
+	width:10rem;
+	height:100%;
+}
+.banner .dot{
+	position:absolute;
+	width:100%;
+	height:calc((20/75)*1rem);
+	text-align:center;
+	top:calc((180/75)*1rem);
+}
+.banner .dot span{
+	display:inline-block;
+	width:calc((20/75)*1rem);
+	height:calc((20/75)*1rem);
+	margin-left:calc((5/75)*1rem);
+	background-color:#f03;
+	border-radius:50%;
+}
+/*--content1--*/
+.contnet1{
+	height:calc((553/75)*1rem);
+}
+/*--appstore--*/
+.app-store{
+	margin-top:calc((70/75)*1rem);
+}
+.app-store .content{
+	width:calc((670/75)*1rem);
+	border-top:calc((3/75)*1rem) dashed #888;
+	margin:auto;
+}
+.app-store .content .app-logo{
+	position:relative;
+	margin:auto;
+}
+.app-logo .logo{
+	position:absolute;
+	width:calc((200/75)*1rem);
+	height:calc((55/75)*1rem);
+	left:0;
+	right:0;
+	bottom:calc((145/75)*1rem);
+	margin:auto;
+	box-shadow:0 0.88rem .2rem rgba(0,0,0,.2);
+}
+.app-logo .b-logo{
+	margin-top:calc((50/75)*1rem);
+}
+.content .app-title,.th-list{
+	width:calc((670/75)*1rem);
+	height:calc((50/75)*1rem);
+	margin-top:calc((50/75)*1rem);
+	margin:auto;
+}
+.app-title ul,.th-list{
+	padding:calc((20/75)*1rem) calc((10/75)*1rem);;
+	border-bottom:calc((1/75)*1rem) dashed #888;
+	text-align:center;
+}
+.app-title ul li,.th-list li{
+	width:calc((100/75)*1rem);
+	height:calc((40/75)*1rem);
+	float:left;
+	color:#535353;
+	margin-right:calc((5/75)*1rem);
+	font-size:calc((32/75)*1rem);
+	text-align:center;
+	line-height:calc((40/75)*1rem);
+}
+.app-title ul .title1,.th-list .title1{
+	background-color:#00c4c4;
+}
+.list1{
+	margin-top:calc((30/75)*1rem);
+}
+.list1 .l-logo img{
+	width:calc((139/75)*1rem);
+	height:calc((77/75)*1rem);
+}
+.list1 .l-text{
+	width:calc((377/75)*1rem);
+	height:calc((77/75)*1rem);
+	text-align:center;
+	line-height:calc((77/75)*1rem);
+	font-size:calc((26/75)*1rem);
+}
+.list1 .l-text span{
+	font-size:calc((30/75)*1rem);
+	font-weight:bold;
+}
+.app-store .content .list{
+	width:calc((670/75)*1rem);	
+	height:calc((77/75)*1rem);
+	color:#5b5b5b;
+	text-align:left;
+	line-height:calc((77/75)*1rem);
+	font-size:calc((30/75)*1rem);
+	font-family:"微软雅黑";
+}
+/*--阴阳师手账--*/
+.content2{
+	width:calc((750/75)*1rem);
+	margin-top:calc((40/75)*1rem);
+}
+.content2 ul{
+	height:calc((167/75)*1rem);
+	margin-top:calc((30/75)*1rem);
+	padding-bottom:calc((20/75)*1rem);
+}
+.content2 ul li{
+	float:left;
+	width:calc((130/75)*1rem);
+	height:calc((157/75)*1rem);
+	margin:calc((10/75)*1rem);
+}
+.content2 ul li img{
+	width:calc((130/75)*1rem);
+	height:calc((129/75)*1rem);
+}
+.content2 li a{
+	position:relative;
+}
+.content2 ul li span{
+	display:inline-block;
+	position:absolute;
+	width:calc((130/75)*1rem);
+	height:calc((30/75)*1rem);
+	top:calc((90/75)*1rem);
+	color:#5b5b5b;
+	text-align:center;
+	line-height:calc((30/75)*1rem);
+	font-size:calc((20/75)*1rem);
+}
+/*--天机谱样式--*/
+.content3{
+	width:calc((750/75)*1rem);
+	height:calc((1112/75)*1rem);
+	background:url("../images/raiders.jpg") no-repeat 100% 100%/cover;
+}
+.content3 .th-content{
+	width:calc((670/75)*1rem);
+	margin:auto;
+}
+.th-title li{
+	position:relative;
+	float:left;
+	width:calc((310/75)*1rem);
+	height:calc((190/75)*1rem);
+	margin-left:calc((20/75)*1rem);
+	background:url("../images/boy.png") no-repeat 100% 100%/cover;
+	border-radius:calc((10/75)*1rem);
+}
+.th-title li .th-text{
+	position:absolute;
+	width:calc((250/75)*1rem);
+	height:calc((35/75)*1rem);
+	top:calc((30/75)*1rem);
+	left:calc((10/75)*1rem);
+	font-size:calc((26/75)*1rem);
+}
+.th-title .th-pic{
+	background:url("../images/girl.png") no-repeat 100% 100%/cover;
+}
+.th-guild{
+	padding-top:calc((20/75)*1rem);
+	padding-left:calc((20/75)*1rem);
+	height:calc((385/75)*1rem);
+}
+.th-guild div{
+	width:calc((670/75)*1rem);
+	height:calc((77/75)*1rem);
+	font-size:calc((26/75)*1rem);
+}
+.content3 .th-content .search input{
+	position:relative;
+	width:calc((670/75)*1rem);
+    height:1rem;
+    margin-top:calc((20/75)*1rem);
+    border:5px solid #000;
+}
+.content3 .th-content .search:after{
+	position:absolute;
+    content:"";
+    width:calc((78/75)*1rem);
+    height:calc((78/75)*1rem);
+	/* bottom:calc((0/75)*1rem);
+	right:calc((0/75)*1rem); */
+	background-color:red;
+	/* background:url("../images/search.jpg") no-repeat 100% 100%/cover; */
+}
+/*--同人赏样式--*/
+.content4 .th-guild{
+	margin-left:calc((50/75)*1rem);
+}
+.fo-pic{
+	width:calc((670/75)*1rem);
+	margin:calc((50/75)*1rem) auto;
+	padding-top:calc((30/75)*1rem);
+	border-top:calc((1/75)*1rem) dashed #888;
+}
+.fo-pic1{
+	height:calc((284/75)*1rem);
+	background:url("../images/ad1.png") no-repeat 100% 100%/cover;
+}
+.fo-pic2{
+	margin-top:calc((30/75)*1rem);
+	height:calc((284/75)*1rem);
+	background:url("../images/ad2.png") no-repeat 100% 100%/cover;
+}
+/*--主角录样式--*/
+.content5{
+	position:relative;
+}
+.content5 .fi-logo{
+	width:calc((670/75)*1rem);
+	height:calc((44/75)*1rem);
+	margin:calc((10/75)*1rem) auto;
+}
+.fi-image{
+	position:relative;
+	width:calc((670/75)*1rem);
+	height:calc((150/75)*1rem);
+	border:calc((2/75)*1rem) solid #888;
+	border-bottom:none;
+	margin:calc((80/75)*1rem) auto;
+}
+.fi-image .fi-pic{
+	position:absolute;
+	width:calc((670/75)*1rem);
+	height:calc((240/75)*1rem);
+	background-image:url("../images/zhujue1.jpg");
+	background-repeat:no-repeat; 
+	background-position:0px 0px;
+	background-size:cover;
+	top:calc((130/75)*1rem);
+}
+.hero{
+	position:absolute;
+	width:calc((493/75)*1rem);
+	height:calc((470/75)*1rem);
+	background:url("../images/hero1.png") no-repeat 100% 100%/cover;
+	top:85px;
+	left:217px;
+}
+.fi-text{
+	position:absolute;
+	width:calc((150/75)*1rem);
+	height:calc((50/75)*1rem);
+	background-color:white;
+	font-size:calc((26/75)*1rem);
+	font-family:bold;
+	text-align:center;
+	line-height:50px;
+	top:100px;
+	left:75px;
+}
+/*--式神录样式--*/
+.content6{
+	margin-top:calc((300/75)*1rem);
+	width:calc((750/75)*1rem);
+}
+.content6 .si-logo{
+	width:calc((670/75)*1rem);
+	margin:auto;
+}
+.si-pic{
+	margin-top:calc((20/75)*1rem);
+	margin-left:calc((10/75)*1rem);
+	text-align:center;
+}
+.si-pic li{
+	float:left;
+	width:calc((105/75)*1rem);
+	height:calc((105/75)*1rem);
+	padding:calc((10/75)*1rem);
+	border:calc((5/75)*1rem) solid #ffab57;
+	border-radius:50%;
+}
+.si-pic li + li{
+	margin-left:calc((15/75)*1rem);
+}
+.si-pic li a{
+	width:calc((105/75)*1rem);
+	height:calc((105/75)*1rem);
+	text-align:center;
+}
+.si-pic li img{
+	width:width:calc((670/75)*1rem);
+	height:calc((105/75)*1rem);
+	background-size:cover;
+}
+article{
+	width:calc((750/75)*1rem);
+	height:calc((80/75)*1rem);
+	background:url("../images/getMore.png") no-repeat 0 0/cover;
+}
+/*--活动区样式--*/
+.content7{
+	width:calc((670/75)*1rem);
+	margin: auto;
+}
+.se-logo{
+	width:100%;
+}
+.se-pic li{
+	float:left;
+	margin:calc((10/75)*1rem) auto;
+	width:calc((320/75)*1rem);
+	height:calc((280/75)*1rem);
+}
+.se-pic li + li{
+	margin-left:calc((20/75)*1rem);
+}
+.se-pic li img{
+	height:calc((180/75)*1rem);
+	background-size:cover;
+}
+.se-pic li p{
+	width:calc((300/75)*1rem);
+	height:calc((40/75)*1rem);
+	font-size:calc((24/75)*1rem);
+	color:#888;
+	text-align:center;
+	word-spacing:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+/*--更多--*/
+.ei-pic{
+	width:calc((750/75)*1rem);
+	height:calc((505/75)*1rem);
+	background:url("../images/game.png") no-repeat 0 0/cover;
+}
+.ei-text{
+	width:calc((750/75)*1rem);
+	height:calc((70/75)*1rem);
+	margin-top:calc((30/75)*1rem);
+	background:url("../images/info.png") no-repeat 0 0/cover;
+}
+.ei-tel{
+	width:calc((750/75)*1rem);
+	height:calc((65/75)*1rem);
+	margin-top:calc((30/75)*1rem);
+	padding-bottom:calc((20/75)*1rem);
+	border-bottom:1px solid #888;
+	text-align:center;
+}
+.ei-tel p{
+	color:#888;
+	font-size:calc((26/75)*1rem);
+}
+.ei-guild{
+	width:calc((750/75)*1rem);
+	height:calc((95/75)*1rem);
+	margin-top:calc((80/75)*1rem);
+	text-align:center;
+	color:#888;
+	font-size:calc((28/75)*1rem);
+}
